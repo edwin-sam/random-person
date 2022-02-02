@@ -1,9 +1,0 @@
-.card-body {
-  width: 50.5vw;
-  height: 61vh;
-  position: absolute;
-  background: linear-gradient(to bottom, #F1F5F8 0%, #F1F5F8 30%, #B4B8BA 30%, #B4B8BA 30.2%, #FFFFFF 30.2%, #FFFFFF 100%);
-  border-radius: 4px;
-  margin-top: 5vh;
-  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
-}
