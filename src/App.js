@@ -1,5 +1,4 @@
-
-import FaceCard from './facCard';
+import FaceCard from './components/facecard/facCard';
 import './App.css';
 
 function App() {
