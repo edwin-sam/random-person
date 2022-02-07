@@ -33,27 +33,27 @@ const FaceCard = () => {
       </div>
 
       <div className="icons-container">
-        <img className="icons" src={User} alt="user" onClick={() => {
+        <img className="icons" src={User} alt="user" onMouseOver={() => {
           setUserInfo(randomUser.name.first + ' ' + randomUser.name.last);
           setInfoPretext('My name is');
         }}/>
-        <img className="icons" src={Email} alt="email" onClick={() => {
+        <img className="icons" src={Email} alt="email" onMouseOver={() => {
           setUserInfo(randomUser.email);
           setInfoPretext('My email is');
         }}/>
-        <img className="icons" src={Calendar} alt="birthday" onClick={() => {
+        <img className="icons" src={Calendar} alt="birthday" onMouseOver={() => {
           setUserInfo(randomUser.dob.age);
           setInfoPretext('My age is');
         }}/>
-        <img className="icons" src={Address} alt="address" onClick={() => {
+        <img className="icons" src={Address} alt="address" onMouseOver={() => {
           setUserInfo(randomUser.location.street.number + ' ' + randomUser.location.street.name);
           setInfoPretext('My street is');
         }}/>
-        <img className="icons" src={Phone} alt="phone" onClick={() => {
+        <img className="icons" src={Phone} alt="phone" onMouseOver={() => {
           setUserInfo(randomUser.phone);
           setInfoPretext('My phone is');
         }}/>
-        <img className="icons" src={Password} alt="password" onClick={() => {
+        <img className="icons" src={Password} alt="password" onMouseOver={() => {
           setUserInfo(randomUser.login.password);
           setInfoPretext('My password is');
         }}/>

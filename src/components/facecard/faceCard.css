@@ -52,7 +52,8 @@
 
 .icons:hover {
   cursor: pointer;
-  background: transparent;
+  border: 2px solid #48A6E8;
+  border-radius: 30%;
 }
 
 .random-button {
